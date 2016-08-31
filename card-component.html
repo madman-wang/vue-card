@@ -12,11 +12,6 @@
 <div class="container">
     <my-card v-for="list in lists" :list="list" :class-group="classGroup"></my-card>
 </div>
-
-<div class="container2">
-    <my-card v-for="list in lists" :list="list" :class-group="classGroup"></my-card>
-</div>
-
 <!--模板-->
 <template id="card-template">
     <div :class="classGroup" @click="al">

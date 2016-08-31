@@ -20,12 +20,5 @@ var vm1 = new Vue({
         return cardDatas
     }
 });
-var vm2 = new Vue({
-    el:'.container2',
-    data:function(){
-        return cardDatas
-    }
-});
-
 
 
